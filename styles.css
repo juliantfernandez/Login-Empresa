@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
+
+body{
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-login{
+    width: 370px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    
+    
+    
+}
+.title-login{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px white solid;
+    border-bottom: 1px #8BC6EC solid;
+    
+}
+
+.btn{
+    padding: 10px;
+    border: 1px white solid;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    color: white;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.btn:hover{
+    transition: 1s;
+    font-weight: bolder;
+    cursor: pointer;
+    color: black;
+    background-image: linear-gradient(135deg, #9599E2 0%, #8BC6EC 100%);
+
+}
